@@ -366,7 +366,7 @@ class _BottomBar extends ConsumerWidget {
                     ? () => ref.read(ctrlProvider.notifier).viewSolution()
                     : null,
           ),
-          if (puzzleState.premoves.isNotEmpty)
+        if (puzzleState.premoves.isNotEmpty)
           BottomBarButton(
             icon: Icons.check,
             label: 'Complete premoves',
