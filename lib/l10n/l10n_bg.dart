@@ -3676,6 +3676,9 @@ class AppLocalizationsBg extends AppLocalizations {
   String get viewTheSolution => 'Виж решението';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Следвай и предизвикай приятели';
 
   @override

@@ -3676,6 +3676,9 @@ class AppLocalizationsGsw extends AppLocalizations {
   String get viewTheSolution => 'Lueg d\'Lösig a';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Folg Fründe und forder sie zum Schpil';
 
   @override

@@ -3722,6 +3722,9 @@ class AppLocalizationsLt extends AppLocalizations {
   String get viewTheSolution => 'Parodyti sprendimą';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Sekti ir žaisti su draugais';
 
   @override

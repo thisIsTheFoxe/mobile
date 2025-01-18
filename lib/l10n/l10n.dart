@@ -6774,6 +6774,12 @@ abstract class AppLocalizations {
   /// **'View the solution'**
   String get viewTheSolution;
 
+  /// No description provided for @completePremoves.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete premoves'**
+  String get completePremoves;
+
   /// No description provided for @followAndChallengeFriends.
   ///
   /// In en, this message translates to:

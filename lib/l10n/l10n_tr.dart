@@ -3676,6 +3676,9 @@ class AppLocalizationsTr extends AppLocalizations {
   String get viewTheSolution => 'Çözümü göster';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Arkadaşlarınızı takip edin ve onlarla maç yapın';
 
   @override

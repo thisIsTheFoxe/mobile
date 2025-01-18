@@ -3768,6 +3768,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get viewTheSolution => 'الحل';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'تابع وتحدى أصدقاءك';
 
   @override

@@ -3724,6 +3724,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get viewTheSolution => 'Посмотреть решение';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Подписки и игра с друзьями';
 
   @override

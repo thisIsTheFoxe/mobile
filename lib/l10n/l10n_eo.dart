@@ -3676,6 +3676,9 @@ class AppLocalizationsEo extends AppLocalizations {
   String get viewTheSolution => 'Vidi la solvon';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Sekvi kaj defii amikojn';
 
   @override

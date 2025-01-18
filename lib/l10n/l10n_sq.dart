@@ -3676,6 +3676,9 @@ class AppLocalizationsSq extends AppLocalizations {
   String get viewTheSolution => 'Shihni zgjidhjen';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Ndiqni dhe sfidoni shokë';
 
   @override

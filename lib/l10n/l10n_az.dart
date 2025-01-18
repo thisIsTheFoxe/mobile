@@ -3674,6 +3674,9 @@ class AppLocalizationsAz extends AppLocalizations {
   String get viewTheSolution => 'Həllə bax';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Dostlarını izlə və oyuna çağır';
 
   @override

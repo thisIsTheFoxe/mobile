@@ -3676,6 +3676,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get viewTheSolution => 'Visa lösningen';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Följ och utmana vänner';
 
   @override

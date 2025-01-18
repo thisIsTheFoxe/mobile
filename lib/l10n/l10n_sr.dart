@@ -3691,6 +3691,9 @@ class AppLocalizationsSr extends AppLocalizations {
   String get viewTheSolution => 'Погледај решење';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Прати и изазови пријатеља';
 
   @override

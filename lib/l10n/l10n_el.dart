@@ -3676,6 +3676,9 @@ class AppLocalizationsEl extends AppLocalizations {
   String get viewTheSolution => 'Δείτε τη λύση';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Ακολουθήστε και προκαλέστε φίλους';
 
   @override

@@ -3654,6 +3654,9 @@ class AppLocalizationsId extends AppLocalizations {
   String get viewTheSolution => 'Lihat jawaban';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Mengikuti dan menantang teman';
 
   @override

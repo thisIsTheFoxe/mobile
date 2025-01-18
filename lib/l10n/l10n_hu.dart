@@ -3676,6 +3676,9 @@ class AppLocalizationsHu extends AppLocalizations {
   String get viewTheSolution => 'Megoldás megtekintése';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Kövesd és hívd ki  a barátaidat';
 
   @override

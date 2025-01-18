@@ -3676,6 +3676,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get viewTheSolution => 'دیدن راه‌حل';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'دنبالیدن و پیشنهاد بازی دادن به دوستان';
 
   @override

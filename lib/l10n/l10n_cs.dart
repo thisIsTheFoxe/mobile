@@ -3724,6 +3724,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get viewTheSolution => 'Zobrazit řešení';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Hraj s přáteli';
 
   @override

@@ -3676,6 +3676,9 @@ class AppLocalizationsEu extends AppLocalizations {
   String get viewTheSolution => 'Erantzuna ikusi';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Jarraitu eta desafio egin lagunei';
 
   @override

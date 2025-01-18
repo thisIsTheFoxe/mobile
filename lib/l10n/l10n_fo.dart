@@ -3674,6 +3674,9 @@ class AppLocalizationsFo extends AppLocalizations {
   String get viewTheSolution => 'Síggj svarið';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Fylg vinum og bjóða teimum av';
 
   @override

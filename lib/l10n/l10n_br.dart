@@ -3728,6 +3728,9 @@ class AppLocalizationsBr extends AppLocalizations {
   String get viewTheSolution => 'Gwelet ar respont';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Heuliañ ha c\'hoari a-enep mignoned';
 
   @override

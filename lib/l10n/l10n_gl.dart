@@ -3676,6 +3676,9 @@ class AppLocalizationsGl extends AppLocalizations {
   String get viewTheSolution => 'Mirar a solución';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Segue e reta ós teus amigos';
 
   @override

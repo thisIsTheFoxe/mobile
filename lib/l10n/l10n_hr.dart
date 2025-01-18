@@ -3700,6 +3700,9 @@ class AppLocalizationsHr extends AppLocalizations {
   String get viewTheSolution => 'Pogledaj rješenje';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Prati i izazovi prijatelje';
 
   @override

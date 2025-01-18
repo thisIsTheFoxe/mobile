@@ -248,7 +248,7 @@ class _Body extends ConsumerWidget {
                 validMoves: puzzleState.validMoves,
                 promotionMove: puzzleState.promotionMove,
                 onMove: (move, {isDrop}) {
-                  ref.read(ctrlProvider.notifier).onUserMove(move);
+                  ref.read(ctrlProvider.notifier).onUserPreMove(move);
                 },
                 onPromotionSelection: (role) {
                   ref.read(ctrlProvider.notifier).onPromotionSelection(role);
@@ -359,11 +359,21 @@ class _BottomBar extends ConsumerWidget {
         if (puzzleState.mode != PuzzleMode.view)
           BottomBarButton(
             icon: Icons.help,
-            label: context.l10n.viewTheSolution,
+            label: puzzleState.premoves.toString(),
             showLabel: true,
             onTap:
                 puzzleState.canViewSolution
                     ? () => ref.read(ctrlProvider.notifier).viewSolution()
+                    : null,
+          ),
+          if (puzzleState.premoves.isNotEmpty)
+          BottomBarButton(
+            icon: Icons.check,
+            label: 'Complete premoves',
+            showLabel: true,
+            onTap:
+                puzzleState.canViewSolution
+                    ? () => ref.read(ctrlProvider.notifier).completePremoves()
                     : null,
           ),
         if (puzzleState.mode == PuzzleMode.view)

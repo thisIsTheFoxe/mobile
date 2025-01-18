@@ -3742,6 +3742,9 @@ class AppLocalizationsGa extends AppLocalizations {
   String get viewTheSolution => 'Féach ar an réiteach';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Lean agus tabhair dúshlán do chairde';
 
   @override

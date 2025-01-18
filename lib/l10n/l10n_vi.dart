@@ -3652,6 +3652,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get viewTheSolution => 'Xem đáp án';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Theo dõi và thách đấu bạn bè';
 
   @override

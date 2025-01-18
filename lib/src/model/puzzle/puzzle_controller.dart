@@ -118,6 +118,10 @@ class PuzzleController extends _$PuzzleController {
     );
   }
 
+  void onUserPreMove(NormalMove move) {
+    state = state.copyWith(premoves: state.premoves + [move]);
+  }
+
   Future<void> onUserMove(NormalMove move) async {
     if (isPromotionPawnMove(state.position, move)) {
       state = state.copyWith(promotionMove: move);
@@ -183,6 +187,13 @@ class PuzzleController extends _$PuzzleController {
     _viewSolutionTimer?.cancel();
     _goToPreviousNode(replaying: true);
     state = state.copyWith(viewedSolutionRecently: false);
+  }
+
+  Future<void> completePremoves() async {
+    for (final move in state.premoves) {
+      await onUserMove(move);
+    }
+    state = state.copyWith(premoves: []);
   }
 
   void viewSolution() {
@@ -521,6 +532,7 @@ class PuzzleState with _$PuzzleState {
     required ViewBranch node,
     Move? lastMove,
     NormalMove? promotionMove,
+    @Default([]) List<NormalMove> premoves,
     PuzzleResult? result,
     PuzzleFeedback? feedback,
     required bool canViewSolution,

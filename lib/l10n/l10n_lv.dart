@@ -3698,6 +3698,9 @@ class AppLocalizationsLv extends AppLocalizations {
   String get viewTheSolution => 'Skatīt atrisinājumu';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Sekojiet draugiem un izaiciniet tos';
 
   @override

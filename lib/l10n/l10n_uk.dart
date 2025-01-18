@@ -3724,6 +3724,9 @@ class AppLocalizationsUk extends AppLocalizations {
   String get viewTheSolution => 'Дивитись рішення';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Спостерігайте і кидайте виклик друзям';
 
   @override

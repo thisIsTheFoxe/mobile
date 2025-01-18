@@ -3676,6 +3676,9 @@ class AppLocalizationsLb extends AppLocalizations {
   String get viewTheSolution => 'Léisung ukucken';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Kolleege followen an erausfuerderen';
 
   @override

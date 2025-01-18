@@ -3720,6 +3720,9 @@ class AppLocalizationsBe extends AppLocalizations {
   String get viewTheSolution => 'Паглядзець рашэнне';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Падпісацца і выклікаць на гульню сяброў';
 
   @override

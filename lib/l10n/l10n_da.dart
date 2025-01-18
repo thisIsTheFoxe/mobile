@@ -3676,6 +3676,9 @@ class AppLocalizationsDa extends AppLocalizations {
   String get viewTheSolution => 'Se løsningen';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Følg og udfordre dine venner';
 
   @override

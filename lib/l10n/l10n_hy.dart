@@ -3676,6 +3676,9 @@ class AppLocalizationsHy extends AppLocalizations {
   String get viewTheSolution => 'Դիտել լուծումը';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Բաժանորդագրություններ և խաղ ընկերների հետ';
 
   @override

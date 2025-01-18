@@ -3674,6 +3674,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get viewTheSolution => 'समाधान देखें';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'अपने दोस्तों को चुनौती';
 
   @override

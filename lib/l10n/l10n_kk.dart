@@ -3676,6 +3676,9 @@ class AppLocalizationsKk extends AppLocalizations {
   String get viewTheSolution => 'Жауабты қарау';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Серік болып, достарды ойынға шақыру';
 
   @override

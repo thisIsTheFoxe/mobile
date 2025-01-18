@@ -3676,6 +3676,9 @@ class AppLocalizationsMk extends AppLocalizations {
   String get viewTheSolution => 'Види го решението';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Следи и предизвикај пријатели';
 
   @override

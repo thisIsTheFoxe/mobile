@@ -3724,6 +3724,9 @@ class AppLocalizationsSk extends AppLocalizations {
   String get viewTheSolution => 'Pozrite riešenie';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Sledovať a vyzvať priateľov';
 
   @override

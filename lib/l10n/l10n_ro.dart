@@ -3700,6 +3700,9 @@ class AppLocalizationsRo extends AppLocalizations {
   String get viewTheSolution => 'Vezi soluția';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Urmărește și provoacă-ți prietenii';
 
   @override

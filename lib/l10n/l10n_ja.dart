@@ -3652,6 +3652,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get viewTheSolution => '解答を見る';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => '友達をフォローして対局しよう';
 
   @override

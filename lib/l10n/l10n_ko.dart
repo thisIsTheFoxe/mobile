@@ -3652,6 +3652,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get viewTheSolution => '정답 보기';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => '친구를 팔로우하고 도전하기';
 
   @override

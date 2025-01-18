@@ -3676,6 +3676,9 @@ class AppLocalizationsEt extends AppLocalizations {
   String get viewTheSolution => 'Vaata lahendust';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => 'Jälgi sõpru ja esita väljakutseid';
 
   @override

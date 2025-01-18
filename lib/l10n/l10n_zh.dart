@@ -3652,6 +3652,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get viewTheSolution => '看解答';
 
   @override
+  String get completePremoves => 'Complete premoves';
+
+  @override
   String get followAndChallengeFriends => '关注并挑战朋友';
 
   @override
